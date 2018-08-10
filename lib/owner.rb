@@ -7,4 +7,9 @@ class Owner
   def species
     return @species
   end
+  
+  def say_species
+    puts "I am a human"
+  end
+  
 end
