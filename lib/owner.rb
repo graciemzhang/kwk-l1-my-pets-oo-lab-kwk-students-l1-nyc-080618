@@ -28,4 +28,12 @@ class Owner
   def buy_fish(name)
     @pets[:fishes].push(name)
   end
+  
+  def buy_cat(name)
+    @pets[:cats].push(name)
+  end
+  
+  def buy_dog(name)
+    @pets[:dogs].push(name)
+  end
 end
