@@ -1,7 +1,8 @@
 class Owner
   
-  def initialize(species)
+  def initialize(species, name)
     @species = "human"
+    @name = name
   end
   
   def species
@@ -10,6 +11,10 @@ class Owner
   
   def say_species
     return "I am a #{@species}."
+  end
+  
+  def name
+    return @name
   end
   
 end
