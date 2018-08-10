@@ -1,8 +1,7 @@
 class Owner
   
-  def initialize(species, name)
+  def initialize(species)
     @species = "human"
-    @name = name
   end
   
   def species
