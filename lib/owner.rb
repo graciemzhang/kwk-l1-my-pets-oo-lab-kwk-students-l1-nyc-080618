@@ -2,6 +2,7 @@ class Owner
   
   def initialize(species)
     @species = "human"
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def species
@@ -20,4 +21,7 @@ class Owner
     @name = new_name
   end
   
+  def pets 
+    return @pets
+  end
 end
