@@ -24,4 +24,8 @@ class Owner
   def pets 
     return @pets
   end
+  
+  def buy_fish(name)
+    
+  end
 end
