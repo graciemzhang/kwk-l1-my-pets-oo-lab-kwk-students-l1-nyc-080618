@@ -15,4 +15,5 @@ class Fish
   def mood=(new_mood)
     @mood = new_mood
   end 
+  
 end
